@@ -1,0 +1,3 @@
+- Sound comments in the source file
+- Sound README file
+- Source code compiles and the executable prints the timetable
