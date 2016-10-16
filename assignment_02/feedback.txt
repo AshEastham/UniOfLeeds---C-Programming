@@ -1,0 +1,31 @@
+- The cost is computed correctly, on reasonable assumptions
+- Constants and variables are used appropriately (most of the time! - see below)
+- Inflation is handled correctly
+- The monthly totals and variable values are printed
+- The code is formatted and commented
+
+Ash,
+
+This is a pretty nice assignment.
+Formatting of the output and code is excellent, and the calculation is correct.
+Please note the points below.
+Well done.
+
+- The inflation rate should be declared as a constant. The lines
+
+      const float inflationRate = 1.01;
+      ...
+      itemCost *= inflationRate;
+
+  are much better than
+
+    itemCost *= 1.01;
+
+- When initialising a float, use a float literal with a trailing `f',
+  as in float myFloat = 400.0f; 
+
+- You did not declare a type for TuitionFees; you should write this:
+
+    const int TuitionFees = 900;
+
+  Luckily for you, gcc defaults to type int, so you got away with this one.
