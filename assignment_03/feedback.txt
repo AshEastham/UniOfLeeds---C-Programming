@@ -1,0 +1,5 @@
+Reads and echoes input correctly
+Works with all characters
+Well structured
+Formatted and commented
+
