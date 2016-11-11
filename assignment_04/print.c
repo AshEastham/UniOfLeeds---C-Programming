@@ -1,3 +1,0 @@
-/*
-You should complete your assignment in here
-*/
