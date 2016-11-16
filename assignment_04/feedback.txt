@@ -1,0 +1,16 @@
+Makefile correctly set up:				2/2
+Code well structured:					1/2
+Code properly formatted and commented: 			2/4
+Code works correctly for hex output: 			3/4
+Code works correctly for decimal output: 		4/4
+Code works correctly for formatted character output: 	0/4
+
+The program dumps in hex and decimal, but the printCharacter function was not implemented.
+In the functions that were implemented, the commenting is good; the indentation could be improved.
+Note that `*data' is not a pointer. `data' is the pointer, `*data' is the value that the pointer
+`data' points to.
+
+- please indent code consistently (one indentation per block)
+- line 19: replace *data++ with data++
+- please avoid long lines in the README
+- hex output field size not constant (use the specifier %02x instead)
